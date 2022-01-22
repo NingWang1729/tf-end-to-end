@@ -1,10 +1,10 @@
-# tf-deep-omr
+# tf-deep-omr-2
 
-TensorFlow code to perform end-to-end Optical Music Recognition on monophonic scores through Convolutional Recurrent Neural Networks and CTC-based training.
+This project is a fork of tf-deep-omr-2, TensorFlow code to perform end-to-end Optical Music Recognition on monophonic scores through Convolutional Recurrent Neural Networks and CTC-based training. This version extends musical recognition to multiple staves.
 
 ## Citation
 
-This repository was used for the experiments reported in the paper:
+The original repository was used for the experiments reported in the paper:
 
 [End-to-End Neural Optical Music Recognition of Monophonic Scores](http://www.mdpi.com/2076-3417/8/4/606)
 
@@ -25,7 +25,7 @@ This repository was used for the experiments reported in the paper:
 
 ## Corpora
 
-This repository is intended for the Printed Images of Music Staves (PrIMuS) dataset.
+The original repository was intended for the Printed Images of Music Staves (PrIMuS) dataset.
 
 PrIMuS can be donwloaded from https://grfia.dlsi.ua.es/primus/
 
@@ -113,7 +113,27 @@ clef.C-L1	accidental.flat-L4	accidental.flat-L2	accidental.flat-S3	digit.2-L4	di
 As discussed in the paper, this representation often misses the last barline.
 
 
+## Cropping script: image_cropper.py
+This script takes any image and crops it.
+```
+Example: python3 image_cropper.py -d
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d, --dry-run         Dry run script without saving
+  -f FILE_NAME, --file-name FILE_NAME
+                        Image name
+  -o OUTPUT, --output OUTPUT
+                        Cropped image name
+  -c CROP CROP CROP CROP, --crop CROP CROP CROP CROP
+                        Coordinates: top, left, bottom, right
+```
+
 ## Contact: 
 
+Original OMR Creator
 * Jorge Calvo Zaragoza (jcalvo@dlsi.ua.es)
 
+Modified Project Creators:
+* Ning Wang (ningwang1729@ucla.edu)
+* Alan Yao  (alan.yao@ucla.edu)
