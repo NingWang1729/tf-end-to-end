@@ -4,14 +4,21 @@ import argparse
 from PIL import Image
 
 
-def crop_image():
+def crop_image(file=None, coords=None, output=None, dry=True):
     # Parse command line arguments
     parser = argparse.ArgumentParser(prog='Crop image from image')
     parser.add_argument('-d', '--dry-run', action='store_true', default=False, help='Dry run script without saving')
     parser.add_argument('-f', '--file-name', type=str, default='./Data/Example/000051652-1_2_1.png', help='Image name')
     parser.add_argument('-o', '--output', type=str, default='./Crops/cropped_image.png', help='Cropped image name')
     parser.add_argument('-c', '--crop', nargs=4, type=int, help='Coordinates: top, left, bottom, right')
-    args = parser.parse_args()
+
+    # Toggle command line vs via imports
+    if file is None or coords is None:
+        args = parser.parse_args()
+    elif dry:
+        args = parser.parse_args(['-f', file, '-c', f'{coords[0]}', f'{coords[1]}', f'{coords[2]}', f'{coords[3]}', '-d'])
+    else:
+        args = parser.parse_args(['-f', file, '-c', f'{coords[0]}', f'{coords[1]}', f'{coords[2]}', f'{coords[3]}', '-o', f'{output}'])
 
     # Load original image
     original_image = Image.open(args.file_name)
