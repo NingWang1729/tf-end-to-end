@@ -91,20 +91,20 @@ def generate_sheet_music_samples(five_staff_sheets=1000, six_staff_sheets=1000):
         temp['coords'] = [int(float(raw['box']['_xtl'])), int(float(raw['box']['_ytl'])), int(float(raw['box']['_xbr'])), int(float(raw['box']['_ybr']))]
         six_staffs[page] = temp
 
-    # crop_indices = np.random.randint(crop_count, size=5)
-    five_sheets = []
-    six_sheets = []
+    # Sort by id
+    five_staffs.sort(key=lambda x : int(x['id']))
+    six_staffs.sort(key=lambda x : int(x['id']))
 
     # Generate 5 staff train data
     for index in range(five_staff_sheets):
         # Generate indices
         crop_indices = np.random.randint(35, size=5)
         file_name = f'./Train_Sheets/five_sheet_{index}'
-        # save annotations
+        # Save annotations
         with open(f'{file_name}.csv', 'w') as file:
             for _ in range(5):
                 fou = five_staffs[crop_indices[_]]
-                file.write(f"0, {22 + fou['coords'][0]}, {95 + fou['coords'][1] + _ * 420}, {22 + fou['coords'][3]}, {95 + fou['coords'][3] + _ * 420}\n")
+                file.write(f"0, {22 + fou['coords'][0]}, {95 + fou['coords'][1] + _ * 420}, {22 + fou['coords'][2]}, {95 + fou['coords'][3] + _ * 420}\n")
 
         # Save sheet music
         generate_five_staff_sheet(crop_indices=crop_indices, file_name=f'{file_name}.png')
@@ -114,14 +114,14 @@ def generate_sheet_music_samples(five_staff_sheets=1000, six_staff_sheets=1000):
         # Generate indices
         crop_indices = np.random.randint(35, size=6)
         file_name = f'./Train_Sheets/six_sheet_{index}'
-        # save annotations
+        # Save annotations
         with open(f'{file_name}.csv', 'w') as file:
             for _ in range(6):
-                fou = five_staffs[crop_indices[_]]
-                file.write(f"0, {22 + fou['coords'][0]}, {95 + fou['coords'][1] + _ * 350}, {22 + fou['coords'][3]}, {95 + fou['coords'][3] + _ * 350}\n")
+                fou = six_staffs[crop_indices[_]]
+                file.write(f"0, {22 + fou['coords'][0]}, {95 + fou['coords'][1] + _ * 350}, {22 + fou['coords'][2]}, {95 + fou['coords'][3] + _ * 350}\n")
 
         # Save sheet music
-        generate_five_staff_sheet(crop_indices=crop_indices, file_name=f'{file_name}.png')
+        generate_six_staff_sheet(crop_indices=crop_indices, file_name=f'{file_name}.png')
 
 
 if __name__ == '__main__':
