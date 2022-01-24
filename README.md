@@ -112,6 +112,15 @@ clef.C-L1	accidental.flat-L4	accidental.flat-L2	accidental.flat-S3	digit.2-L4	di
 
 As discussed in the paper, this representation often misses the last barline.
 
+## Modified Pipeline:
+0. Prepare data and annotations
+1. Parse Annotations: (TODO: pipeline this step)
+  - 1.1 Crop images (parse_annotations)
+  - 1.2 Resize images (resize_images)
+  - 1.3 Generate sheets (parse annotations)
+2. Train model
+3. Predict
+
 
 ## Cropping script: image_cropper.py
 This script takes any image and crops it.

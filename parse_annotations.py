@@ -1,7 +1,11 @@
 #!/bin/env python3
 
+import re
 import json
+import numpy as np
+
 from image_cropper import crop_image
+from generate_sheet_music import generate_five_staff_sheet, generate_six_staff_sheet
 
 def crop_staffs():
     # Open file
@@ -52,5 +56,75 @@ def crop_staffs():
             index += 1
 
 
+def generate_sheet_music_samples(five_staff_sheets=1000, six_staff_sheets=1000):
+    # Open file
+    with open('./Grand_Staff_Crop_Labels_Train.json', 'r') as file:
+        annotations = json.load(file)
+
+    # Retrieve Pages
+    annotations = annotations['annotations']['image']
+
+    # Separate into 5 and 6 staffs per page
+    five_staffs = []
+    six_staffs = []
+    for page in annotations:
+        if re.search('five', page['_name']):
+            five_staffs.append(page)
+        elif re.search('six', page['_name']):
+            six_staffs.append(page)
+
+    # Parse JSON for 5 staffs
+    for page in range(len(five_staffs)):
+        raw = five_staffs[page]
+        temp = {}
+        temp['file'] = raw['_name']
+        temp['id'] = re.search('\d+', raw['_name']).group()
+        temp['coords'] = [int(float(raw['box']['_xtl'])), int(float(raw['box']['_ytl'])), int(float(raw['box']['_xbr'])), int(float(raw['box']['_ybr']))]
+        five_staffs[page] = temp
+
+    # Parse JSON for 6 staffs
+    for page in range(len(six_staffs)):
+        raw = six_staffs[page]
+        temp = {}
+        temp['file'] = raw['_name']
+        temp['id'] = re.search('\d+', raw['_name']).group()
+        temp['coords'] = [int(float(raw['box']['_xtl'])), int(float(raw['box']['_ytl'])), int(float(raw['box']['_xbr'])), int(float(raw['box']['_ybr']))]
+        six_staffs[page] = temp
+
+    # crop_indices = np.random.randint(crop_count, size=5)
+    five_sheets = []
+    six_sheets = []
+
+    # Generate 5 staff train data
+    for index in range(five_staff_sheets):
+        # Generate indices
+        crop_indices = np.random.randint(35, size=5)
+        file_name = f'./Train_Sheets/five_sheet_{index}'
+        # save annotations
+        with open(f'{file_name}.csv', 'w') as file:
+            for _ in range(5):
+                fou = five_staffs[crop_indices[_]]
+                file.write(f"0, {22 + fou['coords'][0]}, {95 + fou['coords'][1] + _ * 420}, {22 + fou['coords'][3]}, {95 + fou['coords'][3] + _ * 420}\n")
+
+        # Save sheet music
+        generate_five_staff_sheet(crop_indices=crop_indices, file_name=f'{file_name}.png')
+
+    # Generate 6 staff train data
+    for index in range(six_staff_sheets):
+        # Generate indices
+        crop_indices = np.random.randint(35, size=6)
+        file_name = f'./Train_Sheets/six_sheet_{index}'
+        # save annotations
+        with open(f'{file_name}.csv', 'w') as file:
+            for _ in range(6):
+                fou = five_staffs[crop_indices[_]]
+                file.write(f"0, {22 + fou['coords'][0]}, {95 + fou['coords'][1] + _ * 350}, {22 + fou['coords'][3]}, {95 + fou['coords'][3] + _ * 350}\n")
+
+        # Save sheet music
+        generate_five_staff_sheet(crop_indices=crop_indices, file_name=f'{file_name}.png')
+
+
 if __name__ == '__main__':
-    crop_staffs()
+    # crop_staffs()
+    generate_sheet_music_samples(1000, 1000)
+    pass

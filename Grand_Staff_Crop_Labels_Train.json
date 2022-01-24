@@ -1,0 +1,1682 @@
+{
+   "annotations": {
+      "version": "1.1",
+      "meta": {
+         "task": {
+            "id": "187392",
+            "name": "Grand Staff Labelling",
+            "size": "101",
+            "mode": "annotation",
+            "overlap": "0",
+            "bugtracker": "",
+            "created": "2022-01-24 05:19:17.687416+00:00",
+            "updated": "2022-01-24 09:25:42.274362+00:00",
+            "subset": "default",
+            "start_frame": "0",
+            "stop_frame": "100",
+            "frame_filter": "",
+            "segments": {
+               "segment": {
+                  "id": "266351",
+                  "start": "0",
+                  "stop": "100",
+                  "url": "http://cvat.org/?id=266351"
+               }
+            },
+            "owner": {
+               "username": "ningwang1729",
+               "email": "ningwang1729@ucla.edu"
+            },
+            "assignee": "",
+            "labels": {
+               "label": [
+                  {
+                     "name": "staff",
+                     "color": "#992320",
+                     "attributes": ""
+                  },
+                  {
+                     "name": "grand_staff",
+                     "color": "#95ef0a",
+                     "attributes": ""
+                  },
+                  {
+                     "name": "grand_staff_symbol",
+                     "color": "#32c041",
+                     "attributes": ""
+                  },
+                  {
+                     "name": "1/5 Staff",
+                     "color": "#79fbbc",
+                     "attributes": ""
+                  },
+                  {
+                     "name": "1/6 Staff",
+                     "color": "#daea66",
+                     "attributes": ""
+                  }
+               ]
+            }
+         },
+         "dumped": "2022-01-24 09:25:54.400617+00:00"
+      },
+      "image": [
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "29.89",
+               "_ytl": "38.99",
+               "_xbr": "1527.12",
+               "_ybr": "304.36",
+               "_z_order": "0"
+            },
+            "_id": "84",
+            "_name": "six_53.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "28.58",
+               "_ytl": "25.98",
+               "_xbr": "1523.22",
+               "_ybr": "308.26",
+               "_z_order": "0"
+            },
+            "_id": "83",
+            "_name": "six_52.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "32.49",
+               "_ytl": "42.89",
+               "_xbr": "1519.32",
+               "_ybr": "321.27",
+               "_z_order": "0"
+            },
+            "_id": "82",
+            "_name": "six_51.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "29.89",
+               "_ytl": "38.99",
+               "_xbr": "1521.92",
+               "_ybr": "317.37",
+               "_z_order": "0"
+            },
+            "_id": "81",
+            "_name": "six_50.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "35.09",
+               "_ytl": "22.08",
+               "_xbr": "1542.73",
+               "_ybr": "318.67",
+               "_z_order": "0"
+            },
+            "_id": "80",
+            "_name": "six_5.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "24.68",
+               "_ytl": "7.77",
+               "_xbr": "1527.12",
+               "_ybr": "321.27",
+               "_z_order": "0"
+            },
+            "_id": "79",
+            "_name": "six_49.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "141.76",
+               "_ytl": "68.91",
+               "_xbr": "1528.42",
+               "_ybr": "314.76",
+               "_z_order": "0"
+            },
+            "_id": "78",
+            "_name": "six_48.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "29.89",
+               "_ytl": "49.40",
+               "_xbr": "1531.02",
+               "_ybr": "317.37",
+               "_z_order": "0"
+            },
+            "_id": "77",
+            "_name": "six_47.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "29.89",
+               "_ytl": "25.98",
+               "_xbr": "1534.93",
+               "_ybr": "309.56",
+               "_z_order": "0"
+            },
+            "_id": "76",
+            "_name": "six_46.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "25.98",
+               "_ytl": "11.67",
+               "_xbr": "1531.02",
+               "_ybr": "313.46",
+               "_z_order": "0"
+            },
+            "_id": "75",
+            "_name": "six_45.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "25.98",
+               "_ytl": "16.88",
+               "_xbr": "1529.72",
+               "_ybr": "301.76",
+               "_z_order": "0"
+            },
+            "_id": "74",
+            "_name": "six_44.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "27.28",
+               "_ytl": "9.07",
+               "_xbr": "1542.73",
+               "_ybr": "306.96",
+               "_z_order": "0"
+            },
+            "_id": "73",
+            "_name": "six_43.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "32.49",
+               "_ytl": "29.89",
+               "_xbr": "1533.62",
+               "_ybr": "310.86",
+               "_z_order": "0"
+            },
+            "_id": "72",
+            "_name": "six_42.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "31.19",
+               "_ytl": "22.08",
+               "_xbr": "1540.13",
+               "_ybr": "299.15",
+               "_z_order": "0"
+            },
+            "_id": "71",
+            "_name": "six_41.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "29.89",
+               "_ytl": "22.08",
+               "_xbr": "1541.43",
+               "_ybr": "306.96",
+               "_z_order": "0"
+            },
+            "_id": "70",
+            "_name": "six_40.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "29.89",
+               "_ytl": "28.58",
+               "_xbr": "1544.03",
+               "_ybr": "296.55",
+               "_z_order": "0"
+            },
+            "_id": "69",
+            "_name": "six_4.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "32.49",
+               "_ytl": "29.89",
+               "_xbr": "1542.73",
+               "_ybr": "304.36",
+               "_z_order": "0"
+            },
+            "_id": "68",
+            "_name": "six_39.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "41.59",
+               "_ytl": "18.18",
+               "_xbr": "1544.03",
+               "_ybr": "297.85",
+               "_z_order": "0"
+            },
+            "_id": "67",
+            "_name": "six_38.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "41.59",
+               "_ytl": "36.39",
+               "_xbr": "1553.14",
+               "_ybr": "317.37",
+               "_z_order": "0"
+            },
+            "_id": "66",
+            "_name": "six_37.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "162.57",
+               "_ytl": "63.71",
+               "_xbr": "1553.14",
+               "_ybr": "304.36",
+               "_z_order": "0"
+            },
+            "_id": "65",
+            "_name": "six_36.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "31.19",
+               "_ytl": "20.78",
+               "_xbr": "1557.04",
+               "_ybr": "309.56",
+               "_z_order": "0"
+            },
+            "_id": "64",
+            "_name": "six_35.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "32.49",
+               "_ytl": "29.89",
+               "_xbr": "1554.44",
+               "_ybr": "299.15",
+               "_z_order": "0"
+            },
+            "_id": "63",
+            "_name": "six_34.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "32.49",
+               "_ytl": "22.08",
+               "_xbr": "1555.74",
+               "_ybr": "305.66",
+               "_z_order": "0"
+            },
+            "_id": "62",
+            "_name": "six_33.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "36.39",
+               "_ytl": "16.88",
+               "_xbr": "1557.04",
+               "_ybr": "321.27",
+               "_z_order": "0"
+            },
+            "_id": "61",
+            "_name": "six_32.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "37.69",
+               "_ytl": "36.39",
+               "_xbr": "1564.84",
+               "_ybr": "309.56",
+               "_z_order": "0"
+            },
+            "_id": "60",
+            "_name": "six_31.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "33.79",
+               "_ytl": "18.18",
+               "_xbr": "1564.84",
+               "_ybr": "301.76",
+               "_z_order": "0"
+            },
+            "_id": "59",
+            "_name": "six_30.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "28.58",
+               "_ytl": "27.28",
+               "_xbr": "1544.03",
+               "_ybr": "303.06",
+               "_z_order": "0"
+            },
+            "_id": "58",
+            "_name": "six_3.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "16.88",
+               "_ytl": "23.38",
+               "_xbr": "1534.93",
+               "_ybr": "300.46",
+               "_z_order": "0"
+            },
+            "_id": "57",
+            "_name": "six_29.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "27.28",
+               "_ytl": "3.87",
+               "_xbr": "1537.53",
+               "_ybr": "314.76",
+               "_z_order": "0"
+            },
+            "_id": "56",
+            "_name": "six_28.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "25.98",
+               "_ytl": "27.28",
+               "_xbr": "1533.63",
+               "_ybr": "305.66",
+               "_z_order": "0"
+            },
+            "_id": "55",
+            "_name": "six_27.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "29.89",
+               "_ytl": "22.08",
+               "_xbr": "1534.93",
+               "_ybr": "318.67",
+               "_z_order": "0"
+            },
+            "_id": "54",
+            "_name": "six_26.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "33.79",
+               "_ytl": "44.19",
+               "_xbr": "1540.13",
+               "_ybr": "316.06",
+               "_z_order": "0"
+            },
+            "_id": "53",
+            "_name": "six_25.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "154.76",
+               "_ytl": "57.20",
+               "_xbr": "1537.53",
+               "_ybr": "316.06",
+               "_z_order": "0"
+            },
+            "_id": "52",
+            "_name": "six_24.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "37.69",
+               "_ytl": "41.59",
+               "_xbr": "1563.54",
+               "_ybr": "326.47",
+               "_z_order": "0"
+            },
+            "_id": "51",
+            "_name": "six_23.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "40.29",
+               "_ytl": "36.39",
+               "_xbr": "1555.74",
+               "_ybr": "319.97",
+               "_z_order": "0"
+            },
+            "_id": "50",
+            "_name": "six_22.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "40.29",
+               "_ytl": "24.68",
+               "_xbr": "1554.44",
+               "_ybr": "309.56",
+               "_z_order": "0"
+            },
+            "_id": "49",
+            "_name": "six_21.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "46.80",
+               "_ytl": "44.19",
+               "_xbr": "1555.74",
+               "_ybr": "305.66",
+               "_z_order": "0"
+            },
+            "_id": "48",
+            "_name": "six_20.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "25.98",
+               "_ytl": "10.37",
+               "_xbr": "1542.73",
+               "_ybr": "300.45",
+               "_z_order": "0"
+            },
+            "_id": "47",
+            "_name": "six_2.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "48.10",
+               "_ytl": "28.58",
+               "_xbr": "1554.44",
+               "_ybr": "309.56",
+               "_z_order": "0"
+            },
+            "_id": "46",
+            "_name": "six_19.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "48.10",
+               "_ytl": "32.49",
+               "_xbr": "1554.44",
+               "_ybr": "293.95",
+               "_z_order": "0"
+            },
+            "_id": "45",
+            "_name": "six_18.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "16.88",
+               "_ytl": "41.59",
+               "_xbr": "1542.73",
+               "_ybr": "301.76",
+               "_z_order": "0"
+            },
+            "_id": "44",
+            "_name": "six_17.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "20.78",
+               "_ytl": "31.19",
+               "_xbr": "1542.73",
+               "_ybr": "295.25",
+               "_z_order": "0"
+            },
+            "_id": "43",
+            "_name": "six_16.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "22.34",
+               "_ytl": "44.19",
+               "_xbr": "1536.49",
+               "_ybr": "306.44",
+               "_z_order": "0"
+            },
+            "_id": "42",
+            "_name": "six_15.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "24.68",
+               "_ytl": "29.89",
+               "_xbr": "1532.33",
+               "_ybr": "301.76",
+               "_z_order": "0"
+            },
+            "_id": "100",
+            "_name": "six_9.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "25.98",
+               "_ytl": "35.09",
+               "_xbr": "1532.33",
+               "_ybr": "316.06",
+               "_z_order": "0"
+            },
+            "_id": "99",
+            "_name": "six_8.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "25.98",
+               "_ytl": "15.58",
+               "_xbr": "1534.93",
+               "_ybr": "304.36",
+               "_z_order": "0"
+            },
+            "_id": "98",
+            "_name": "six_7.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "49.40",
+               "_ytl": "28.58",
+               "_xbr": "1547.93",
+               "_ybr": "313.46",
+               "_z_order": "0"
+            },
+            "_id": "97",
+            "_name": "six_65.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "44.19",
+               "_ytl": "36.39",
+               "_xbr": "1544.03",
+               "_ybr": "325.17",
+               "_z_order": "0"
+            },
+            "_id": "96",
+            "_name": "six_64.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "37.69",
+               "_ytl": "33.79",
+               "_xbr": "1540.13",
+               "_ybr": "300.46",
+               "_z_order": "0"
+            },
+            "_id": "95",
+            "_name": "six_63.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "41.59",
+               "_ytl": "46.80",
+               "_xbr": "1538.83",
+               "_ybr": "301.75",
+               "_z_order": "0"
+            },
+            "_id": "94",
+            "_name": "six_62.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "162.57",
+               "_ytl": "61.11",
+               "_xbr": "1553.14",
+               "_ybr": "279.64",
+               "_z_order": "0"
+            },
+            "_id": "93",
+            "_name": "six_61.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "44.19",
+               "_ytl": "14.28",
+               "_xbr": "1544.03",
+               "_ybr": "309.56",
+               "_z_order": "0"
+            },
+            "_id": "92",
+            "_name": "six_60.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "31.19",
+               "_ytl": "31.19",
+               "_xbr": "1537.53",
+               "_ybr": "310.86",
+               "_z_order": "0"
+            },
+            "_id": "91",
+            "_name": "six_6.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "41.59",
+               "_ytl": "27.28",
+               "_xbr": "1532.32",
+               "_ybr": "330.37",
+               "_z_order": "0"
+            },
+            "_id": "90",
+            "_name": "six_59.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "40.29",
+               "_ytl": "50.70",
+               "_xbr": "1545.33",
+               "_ybr": "327.77",
+               "_z_order": "0"
+            },
+            "_id": "89",
+            "_name": "six_58.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "45.50",
+               "_ytl": "24.68",
+               "_xbr": "1542.73",
+               "_ybr": "313.46",
+               "_z_order": "0"
+            },
+            "_id": "88",
+            "_name": "six_57.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "49.40",
+               "_ytl": "35.09",
+               "_xbr": "1544.03",
+               "_ybr": "292.65",
+               "_z_order": "0"
+            },
+            "_id": "87",
+            "_name": "six_56.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "45.50",
+               "_ytl": "32.49",
+               "_xbr": "1542.73",
+               "_ybr": "300.46",
+               "_z_order": "0"
+            },
+            "_id": "86",
+            "_name": "six_55.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "38.99",
+               "_ytl": "37.69",
+               "_xbr": "1538.83",
+               "_ybr": "306.96",
+               "_z_order": "0"
+            },
+            "_id": "85",
+            "_name": "six_54.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "20.78",
+               "_ytl": "31.19",
+               "_xbr": "1537.53",
+               "_ybr": "290.05",
+               "_z_order": "0"
+            },
+            "_id": "41",
+            "_name": "six_14.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "27.28",
+               "_ytl": "41.59",
+               "_xbr": "1534.93",
+               "_ybr": "306.96",
+               "_z_order": "0"
+            },
+            "_id": "40",
+            "_name": "six_13.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "27.28",
+               "_ytl": "25.98",
+               "_xbr": "1536.23",
+               "_ybr": "309.56",
+               "_z_order": "0"
+            },
+            "_id": "39",
+            "_name": "six_12.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "16.88",
+               "_ytl": "42.89",
+               "_xbr": "1533.63",
+               "_ybr": "322.57",
+               "_z_order": "0"
+            },
+            "_id": "38",
+            "_name": "six_11.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "23.38",
+               "_ytl": "18.18",
+               "_xbr": "1534.93",
+               "_ybr": "301.76",
+               "_z_order": "0"
+            },
+            "_id": "37",
+            "_name": "six_10.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "27.28",
+               "_ytl": "35.09",
+               "_xbr": "1541.43",
+               "_ybr": "313.46",
+               "_z_order": "0"
+            },
+            "_id": "36",
+            "_name": "six_1.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "33.79",
+               "_ytl": "27.28",
+               "_xbr": "1541.43",
+               "_ybr": "310.86",
+               "_z_order": "0"
+            },
+            "_id": "35",
+            "_name": "six_0.png",
+            "_width": "1600",
+            "_height": "333"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "31.19",
+               "_ytl": "38.73",
+               "_xbr": "1540.13",
+               "_ybr": "356.13",
+               "_z_order": "0"
+            },
+            "_id": "34",
+            "_name": "five_9.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "29.89",
+               "_ytl": "68.65",
+               "_xbr": "1538.83",
+               "_ybr": "360.03",
+               "_z_order": "0"
+            },
+            "_id": "33",
+            "_name": "five_8.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "27.28",
+               "_ytl": "46.54",
+               "_xbr": "1538.83",
+               "_ybr": "349.63",
+               "_z_order": "0"
+            },
+            "_id": "32",
+            "_name": "five_7.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "28.58",
+               "_ytl": "55.64",
+               "_xbr": "1541.43",
+               "_ybr": "357.43",
+               "_z_order": "0"
+            },
+            "_id": "31",
+            "_name": "five_6.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "146.96",
+               "_ytl": "72.55",
+               "_xbr": "1541.43",
+               "_ybr": "362.63",
+               "_z_order": "0"
+            },
+            "_id": "30",
+            "_name": "five_5.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "20.78",
+               "_ytl": "47.84",
+               "_xbr": "1544.03",
+               "_ybr": "362.63",
+               "_z_order": "0"
+            },
+            "_id": "29",
+            "_name": "five_4.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "57.20",
+               "_ytl": "53.04",
+               "_xbr": "1542.73",
+               "_ybr": "356.13",
+               "_z_order": "0"
+            },
+            "_id": "28",
+            "_name": "five_34.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "49.40",
+               "_ytl": "54.34",
+               "_xbr": "1546.63",
+               "_ybr": "354.83",
+               "_z_order": "0"
+            },
+            "_id": "27",
+            "_name": "five_33.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "54.60",
+               "_ytl": "51.74",
+               "_xbr": "1547.93",
+               "_ybr": "360.03",
+               "_z_order": "0"
+            },
+            "_id": "26",
+            "_name": "five_32.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "169.07",
+               "_ytl": "73.85",
+               "_xbr": "1550.54",
+               "_ybr": "375.64",
+               "_z_order": "0"
+            },
+            "_id": "25",
+            "_name": "five_31.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "49.40",
+               "_ytl": "56.94",
+               "_xbr": "1546.63",
+               "_ybr": "365.24",
+               "_z_order": "0"
+            },
+            "_id": "24",
+            "_name": "five_30.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "25.98",
+               "_ytl": "54.34",
+               "_xbr": "1542.73",
+               "_ybr": "358.73",
+               "_z_order": "0"
+            },
+            "_id": "23",
+            "_name": "five_3.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "31.19",
+               "_ytl": "77.76",
+               "_xbr": "1532.32",
+               "_ybr": "358.73",
+               "_z_order": "0"
+            },
+            "_id": "22",
+            "_name": "five_29.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "37.69",
+               "_ytl": "64.75",
+               "_xbr": "1538.83",
+               "_ybr": "353.53",
+               "_z_order": "0"
+            },
+            "_id": "21",
+            "_name": "five_28.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "31.19",
+               "_ytl": "64.75",
+               "_xbr": "1536.23",
+               "_ybr": "340.52",
+               "_z_order": "0"
+            },
+            "_id": "20",
+            "_name": "five_27.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "32.49",
+               "_ytl": "54.34",
+               "_xbr": "1534.93",
+               "_ybr": "380.84",
+               "_z_order": "0"
+            },
+            "_id": "19",
+            "_name": "five_26.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "35.09",
+               "_ytl": "42.63",
+               "_xbr": "1540.13",
+               "_ybr": "357.43",
+               "_z_order": "0"
+            },
+            "_id": "18",
+            "_name": "five_25.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "144.36",
+               "_ytl": "62.15",
+               "_xbr": "1545.33",
+               "_ybr": "361.33",
+               "_z_order": "0"
+            },
+            "_id": "17",
+            "_name": "five_24.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "36.39",
+               "_ytl": "50.44",
+               "_xbr": "1546.63",
+               "_ybr": "330.11",
+               "_z_order": "0"
+            },
+            "_id": "16",
+            "_name": "five_23.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "32.49",
+               "_ytl": "51.74",
+               "_xbr": "1544.03",
+               "_ybr": "352.23",
+               "_z_order": "0"
+            },
+            "_id": "15",
+            "_name": "five_22.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "37.69",
+               "_ytl": "62.15",
+               "_xbr": "1550.54",
+               "_ybr": "370.44",
+               "_z_order": "0"
+            },
+            "_id": "14",
+            "_name": "five_21.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "40.29",
+               "_ytl": "62.15",
+               "_xbr": "1547.93",
+               "_ybr": "360.03",
+               "_z_order": "0"
+            },
+            "_id": "13",
+            "_name": "five_20.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "31.19",
+               "_ytl": "40.03",
+               "_xbr": "1544.03",
+               "_ybr": "360.03",
+               "_z_order": "0"
+            },
+            "_id": "12",
+            "_name": "five_2.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "31.19",
+               "_ytl": "64.75",
+               "_xbr": "1541.43",
+               "_ybr": "373.04",
+               "_z_order": "0"
+            },
+            "_id": "11",
+            "_name": "five_19.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "29.89",
+               "_ytl": "50.44",
+               "_xbr": "1542.73",
+               "_ybr": "350.93",
+               "_z_order": "0"
+            },
+            "_id": "10",
+            "_name": "five_18.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "25.98",
+               "_ytl": "41.33",
+               "_xbr": "1541.43",
+               "_ybr": "357.43",
+               "_z_order": "0"
+            },
+            "_id": "9",
+            "_name": "five_17.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "28.58",
+               "_ytl": "53.04",
+               "_xbr": "1541.43",
+               "_ybr": "327.51",
+               "_z_order": "0"
+            },
+            "_id": "8",
+            "_name": "five_16.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "25.98",
+               "_ytl": "46.54",
+               "_xbr": "1538.83",
+               "_ybr": "322.31",
+               "_z_order": "0"
+            },
+            "_id": "7",
+            "_name": "five_15.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "31.19",
+               "_ytl": "60.84",
+               "_xbr": "1536.23",
+               "_ybr": "361.33",
+               "_z_order": "0"
+            },
+            "_id": "6",
+            "_name": "five_14.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "32.49",
+               "_ytl": "40.03",
+               "_xbr": "1542.73",
+               "_ybr": "361.33",
+               "_z_order": "0"
+            },
+            "_id": "5",
+            "_name": "five_13.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "33.79",
+               "_ytl": "41.33",
+               "_xbr": "1544.03",
+               "_ybr": "345.72",
+               "_z_order": "0"
+            },
+            "_id": "4",
+            "_name": "five_12.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "35.09",
+               "_ytl": "46.54",
+               "_xbr": "1550.54",
+               "_ybr": "331.41",
+               "_z_order": "0"
+            },
+            "_id": "3",
+            "_name": "five_11.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "152.16",
+               "_ytl": "67.35",
+               "_xbr": "1550.54",
+               "_ybr": "360.03",
+               "_z_order": "0"
+            },
+            "_id": "2",
+            "_name": "five_10.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "32.49",
+               "_ytl": "58.24",
+               "_xbr": "1544.03",
+               "_ybr": "345.72",
+               "_z_order": "0"
+            },
+            "_id": "1",
+            "_name": "five_1.png",
+            "_width": "1600",
+            "_height": "400"
+         },
+         {
+            "box": {
+               "_label": "grand_staff",
+               "_occluded": "0",
+               "_source": "manual",
+               "_xtl": "156.06",
+               "_ytl": "58.24",
+               "_xbr": "1546.63",
+               "_ybr": "365.24",
+               "_z_order": "0"
+            },
+            "_id": "0",
+            "_name": "five_0.png",
+            "_width": "1600",
+            "_height": "400"
+         }
+      ]
+   }
+}
