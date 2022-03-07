@@ -114,7 +114,7 @@ As discussed in the paper, this representation often misses the last barline.
 
 ## Modified Pipeline:
 0. Prepare data and annotations
-1. Parse Annotations: (TODO: pipeline this step)
+1. Parse Annotations:
   - 1.1 Crop images (parse_annotations)
   - 1.2 Resize images (resize_images)
   - 1.3 Generate sheets (parse annotations)
